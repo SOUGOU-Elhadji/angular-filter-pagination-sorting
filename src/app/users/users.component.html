@@ -1,0 +1,30 @@
+<div class="container">
+    <h1>Employee Dashboard</h1>
+    <nav class="navbar">
+        <input type="text" name="firstname" [(ngModel)]="firstname" (ngModelChange)="Search()"
+            placeholder="Enter firstname to search">
+    </nav>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th (click)="sort('id')">NO.&nbsp;<img src="https://img.icons8.com/material-sharp/24/000000/sort.png"/></th>
+                <th (click)="sort('firstname')">First Name&nbsp; <img src="https://img.icons8.com/material-sharp/24/000000/sort.png"/></th>
+                <th (click)="sort('lastname')">Last Name&nbsp;<img src="https://img.icons8.com/material-sharp/24/000000/sort.png"/></th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let u of users | orderBy: key : reverse">
+                <td>{{u.id}}</td>
+                <td>{{u.firstname}}</td>
+                <td>{{u.lastname}}</td>
+                <td>{{u.email}}</td>
+                <td>{{u.mobile}}</td>
+                <td>{{u.salary}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

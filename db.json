@@ -1,0 +1,36 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "firstname": "malick",
+            "lastname": "sougou",
+            "email": "malick@gmail.com",
+            "mobile": "778451236",
+            "salary": "150000"
+        },
+        {
+            "id": 2,
+            "firstname": "Amadou",
+            "lastname": "lo",
+            "email": "amadou@gmail.com",
+            "mobile": "778451236",
+            "salary": "150000"
+        },
+        {
+            "id": 3,
+            "firstname": "Saliou",
+            "lastname": "lam",
+            "email": "saliou@gmail.com",
+            "mobile": "778451236",
+            "salary": "150000"
+        },
+        {
+            "id": 4,
+            "firstname": "Samba",
+            "lastname": "ndiaye",
+            "email": "samba@gmail.com",
+            "mobile": "778451236",
+            "salary": "150000"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+npm install -g json-server
+json-server --watch db.json
+
+npm dans le filtre de recherche ng2
+npm dans ng2-order-pipe
+npm et ngx-pagination
